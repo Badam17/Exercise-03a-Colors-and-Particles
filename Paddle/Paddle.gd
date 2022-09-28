@@ -20,4 +20,6 @@ func _input(event):
 		target.x += event.relative.x
 
 func hit():
-	 $Highlight.modulate.a = 1.0
+	$Highlight.modulate.a = 1.0
+	$Confetti.emitting = true
+
